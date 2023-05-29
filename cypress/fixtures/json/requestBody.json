@@ -1,0 +1,110 @@
+[
+  {
+    "requestFields": "invalidemailformat",
+    "values": "test"
+  },
+  {
+    "requestFields": "emailblank",
+    "values": ""
+  },
+  {
+    "requestFields": "invalidcontactnumber",
+    "values": "8yh^&988978798789754gwwq6"
+  },
+  {
+    "requestFields": "firstnameblank",
+    "values": ""
+  },
+  {
+    "requestFields": "lastnameblank",
+    "values": ""
+  },
+  {
+    "requestFields": "passwordblank",
+    "values": ""
+  },
+  {
+    "requestFields": "alreadyregisteruser",
+    "values": "test123@gmail.com"
+  },
+  {
+    "requestFields": "registrationnumberblank",
+    "values": ""
+  },
+  {
+    "requestFields": "roleblank",
+    "values": ""
+  },
+  {
+    "requestFields": "invalidusername",
+    "values": "test.technician1@gmail.c"
+  },
+  {
+    "requestFields": "invalidpassword",
+    "values": "Pass@1"
+  },
+  {
+    "requestFields": "withoutusername",
+    "values": ""
+  },
+  {
+    "requestFields": "confirmpasswordblank",
+    "values": ""
+  },
+  {
+    "requestFields": "contactnumberblank",
+    "values": ""
+  },
+  {
+    "requestFields": "invalidfirstname",
+    "values": "RU()^89"
+  },
+  {
+    "requestFields": "invalidlastname",
+    "values": "Pu&*jhkj90"
+  },
+  {
+    "requestFields": "alreadycreateduser",
+    "values": "ruchirapunera3@gmail.com"
+  },
+  {
+    "requestFields": "alreadyusednumber",
+    "values": "8958472106"
+  },
+  {
+    "requestFields": "invalidid",
+    "values": "87iuhi*&&"
+  },
+  {
+    "requestFields": "invalidisactive",
+    "values": "tr"
+  },
+  {
+    "requestFields": "blankid",
+    "values": ""
+  },
+  {
+    "requestFields": "blankisactive",
+    "values": ""
+  },
+  {
+    "requestFields": "invalidconfirmpassword",
+    "values": "678hjvjh08098hjkjkj"
+  },
+  {
+    "requestFields": "oldpasswordblank",
+    "values": ""
+  },
+  {
+    "requestFields": "invalidoldpassword",
+    "values": "ASkl@123"
+  },
+  {
+    "requestFields": "invaliddoctorid",
+    "values": "sdh78**((*("
+  },
+  {
+    "requestFields": "blankdoctorid",
+    "values": ""
+  }
+]

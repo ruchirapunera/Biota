@@ -1,0 +1,21 @@
+StatusCode,ExpectedValue
+200,User Creation Successfully.
+400,Email Id Already Registered,Please try different .
+400,Doctor registration number already used.
+400,Doctor mobile number already used.
+400,Invalid Password Or UserName. Please Enter Correct UserName Or Password.
+400,Email id already used.
+400,SIA coach  mobile number already used.
+404,
+401,
+200,
+500,
+400,Value cannot be null. (Parameter 'email')
+200,Account password reset email send to user email Id.
+400,User Not Found.
+200,User Status Update Successfully.
+404,User Not Found.
+404,User id not found : 
+200,User update successfully.
+200,New Password set successfully.
+400,Password Reset Failed.

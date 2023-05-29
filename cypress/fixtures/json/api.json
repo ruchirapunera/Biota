@@ -1,0 +1,58 @@
+[
+  {
+    "apis": "registrationApi",
+    "endpoints": "api/v1.0/Authorize/Register"
+  },
+  {
+    "apis": "loginApi",
+    "endpoints": "api/v1.0/Authorize/Login"
+  },
+  {
+    "apis": "forgetApi",
+    "endpoints": "api/v1.0/Authorize/ForgetPassword"
+  },
+  {
+    "apis": "generateSessionApi",
+    "endpoints": "api/v1.0/Authorize/Token"
+  },
+  {
+    "apis": "addNewUserApi",
+    "endpoints": "api/v1.0/Authorize/AddUser"
+  },
+  {
+    "apis": "generalPhysiciansApi",
+    "endpoints": "api/v1.0/GeneralPhysician/GeneralPhysiciansWithPulmonologist"
+  },
+  {
+    "apis": "changeUserStatusApi",
+    "endpoints": "api/v1.0/Authorize/ChangeUserStatus"
+  },
+  {
+    "apis": "resetPasswordApi",
+    "endpoints": "api/v1.0/Authorize/ResetPassword"
+  },
+  {
+    "apis": "getUserInformationAPi",
+    "endpoints": "api/v1.0/Authorize/GetUser"
+  },
+  {
+    "apis": "updateUserAPi",
+    "endpoints": "api/v1.0/Authorize/EditUser"
+  },
+  {
+    "apis": "changeUserPasswordAPi",
+    "endpoints": "api/v1.0/Authorize/ChangePassword"
+  },
+  {
+    "apis": "getOnlyGeneralPhysiciansAPi",
+    "endpoints": "api/v1.0/GeneralPhysician/GeneralPhysicians"
+  },
+  {
+    "apis": "getListOfPatientsRegisterAPi",
+    "endpoints": "api/v1.0/GeneralPhysician/Patients"
+  },
+  {
+    "apis": "patientGridAPi",
+    "endpoints": "api/v1.0/GeneralPhysician/PatientsGrid"
+  }
+]

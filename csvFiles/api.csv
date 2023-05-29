@@ -1,0 +1,15 @@
+apis,endpoints
+registrationApi,api/v1.0/Authorize/Register
+loginApi,api/v1.0/Authorize/Login
+forgetApi,api/v1.0/Authorize/ForgetPassword
+generateSessionApi,api/v1.0/Authorize/Token
+addNewUserApi,api/v1.0/Authorize/AddUser
+generalPhysiciansApi,api/v1.0/GeneralPhysician/GeneralPhysiciansWithPulmonologist
+changeUserStatusApi,api/v1.0/Authorize/ChangeUserStatus
+resetPasswordApi,api/v1.0/Authorize/ResetPassword
+getUserInformationAPi,api/v1.0/Authorize/GetUser
+updateUserAPi,api/v1.0/Authorize/EditUser
+changeUserPasswordAPi,api/v1.0/Authorize/ChangePassword
+getOnlyGeneralPhysiciansAPi,api/v1.0/GeneralPhysician/GeneralPhysicians
+getListOfPatientsRegisterAPi,api/v1.0/GeneralPhysician/Patients
+patientGridAPi,api/v1.0/GeneralPhysician/PatientsGrid

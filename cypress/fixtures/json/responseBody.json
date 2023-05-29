@@ -1,0 +1,83 @@
+[
+  {
+    "StatusCode": "200",
+    "ExpectedValue": "User Creation Successfully."
+  },
+  {
+    "StatusCode": "400",
+    "ExpectedValue": "Email Id Already Registered,Please try different ."
+    
+  },
+  {
+    "StatusCode": "400",
+    "ExpectedValue": "Doctor registration number already used."
+  },
+  {
+    "StatusCode": "400",
+    "ExpectedValue": "Doctor mobile number already used."
+  },
+  {
+    "StatusCode": "400",
+    "ExpectedValue": "Invalid Password Or UserName. Please Enter Correct UserName Or Password."
+  },
+  {
+    "StatusCode": "400",
+    "ExpectedValue": "Email id already used."
+  },
+  {
+    "StatusCode": "400",
+    "ExpectedValue": "SIA coach  mobile number already used."
+  },
+  {
+    "StatusCode": "404",
+    "ExpectedValue": ""
+  },
+  {
+    "StatusCode": "401",
+    "ExpectedValue": ""
+  },
+  {
+    "StatusCode": "200",
+    "ExpectedValue": ""
+  },
+  {
+    "StatusCode": "500",
+    "ExpectedValue": ""
+  },
+  {
+    "StatusCode": "400",
+    "ExpectedValue": "Value cannot be null. (Parameter 'email')"
+  },
+  {
+    "StatusCode": "200",
+    "ExpectedValue": "Account password reset email send to user email Id."
+  },
+  {
+    "StatusCode": "400",
+    "ExpectedValue": "User Not Found."
+  },
+  {
+    "StatusCode": "200",
+    "ExpectedValue": "User Status Update Successfully."
+  },
+  {
+    "StatusCode": "404",
+    "ExpectedValue": "User Not Found."
+  },
+  {
+    "StatusCode": "404",
+    "ExpectedValue": "User id not found : "
+  },
+  {
+    "StatusCode": "200",
+    "ExpectedValue": "User update successfully."
+  },
+  {
+    "StatusCode": "200",
+    "ExpectedValue": "New Password set successfully."
+  },
+  {
+    "StatusCode": "400",
+    "ExpectedValue": "Password Reset Failed."
+  }
+]
