@@ -1,0 +1,36 @@
+{
+  "name": "briota",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "json": "cypress run --spec 'cypress/e2e/**/*.feature'",
+    "report": "node ./cucumber-html-reporter.js",
+    "test": "npm run json || npm run report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^17.1.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "csvtojson": "^2.0.10",
+    "cypress": "^10.11.0",
+    "xlsx": "^0.18.5",
+    "xlsx-to-json": "^0.3.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "multiple-cucumber-html-reporter": "^3.4.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/stepDefs/**/*.{cy.js,ts}",
+    "nonGlobalStepDefinitions": true,
+    "json": {
+      "enabled": true,
+      "formatter": "./jsonFormatter/cucumber-json-formatter",
+      "output": "json-logs/report.json"
+    }
+  }
+}
